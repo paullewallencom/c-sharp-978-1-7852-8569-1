@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04_PeopleApp", "Ch04_PeopleApp\Ch04_PeopleApp.csproj", "{0C272ABA-7C26-4AEE-A877-30C7E52BB913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04_PacktLibrary", "Ch04_PacktLibrary\Ch04_PacktLibrary.csproj", "{A496A589-4C69-4BF5-8F55-06481D466A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04_InheritanceApp", "Ch04_InheritanceApp\Ch04_InheritanceApp.csproj", "{13DF7695-5926-4FC6-A663-13DF4EF9C339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C272ABA-7C26-4AEE-A877-30C7E52BB913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C272ABA-7C26-4AEE-A877-30C7E52BB913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C272ABA-7C26-4AEE-A877-30C7E52BB913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C272ABA-7C26-4AEE-A877-30C7E52BB913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A496A589-4C69-4BF5-8F55-06481D466A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A496A589-4C69-4BF5-8F55-06481D466A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A496A589-4C69-4BF5-8F55-06481D466A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A496A589-4C69-4BF5-8F55-06481D466A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DF7695-5926-4FC6-A663-13DF4EF9C339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DF7695-5926-4FC6-A663-13DF4EF9C339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DF7695-5926-4FC6-A663-13DF4EF9C339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DF7695-5926-4FC6-A663-13DF4EF9C339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

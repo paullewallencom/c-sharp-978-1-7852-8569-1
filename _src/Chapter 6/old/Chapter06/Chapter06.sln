@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06_FileSystem", "Ch06_FileSystem\Ch06_FileSystem.csproj", "{DE3202C6-D16F-41AD-B4D9-823CFBF6878D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06_Streams", "Ch06_Streams\Ch06_Streams.csproj", "{DCC11586-EC8C-412D-9F8C-0E6659C052F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06_Encodings", "Ch06_Encodings\Ch06_Encodings.csproj", "{1FE0D89C-A5E6-41B6-AB99-0CDFAEB7448E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06_Serialization", "Ch06_Serialization\Ch06_Serialization.csproj", "{EDE273C2-A451-4D8C-96FE-71E2E22160DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE3202C6-D16F-41AD-B4D9-823CFBF6878D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3202C6-D16F-41AD-B4D9-823CFBF6878D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3202C6-D16F-41AD-B4D9-823CFBF6878D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3202C6-D16F-41AD-B4D9-823CFBF6878D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC11586-EC8C-412D-9F8C-0E6659C052F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC11586-EC8C-412D-9F8C-0E6659C052F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC11586-EC8C-412D-9F8C-0E6659C052F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC11586-EC8C-412D-9F8C-0E6659C052F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE0D89C-A5E6-41B6-AB99-0CDFAEB7448E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE0D89C-A5E6-41B6-AB99-0CDFAEB7448E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE0D89C-A5E6-41B6-AB99-0CDFAEB7448E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE0D89C-A5E6-41B6-AB99-0CDFAEB7448E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE273C2-A451-4D8C-96FE-71E2E22160DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE273C2-A451-4D8C-96FE-71E2E22160DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE273C2-A451-4D8C-96FE-71E2E22160DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE273C2-A451-4D8C-96FE-71E2E22160DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

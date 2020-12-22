@@ -1,0 +1,24 @@
+﻿@model Ch10_WebApp.Models.HomeIndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <h1>Northwind</h1>
+    <p class="lead">We have had @Model.VisitorCount visitors this month.</p>
+    <h2>Products</h2>
+    <div id="newspaper">
+        <ul>
+            @foreach (var item in @Model.Products)
+            {
+                <li>@Html.ActionLink($"{item.ProductName} costs {item.UnitPrice.Value:c}", "ProductDetail", "Home", new { id = item.ProductID }, null)</li>
+            }
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <form action="@Url.Action("ProductsThatCostMoreThan")" method="get">
+        <input name="price" placeholder="Enter a product price" />
+        <input type="submit" />
+    </form>
+</div>

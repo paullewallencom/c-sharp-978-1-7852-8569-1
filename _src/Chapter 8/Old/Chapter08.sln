@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08_Tasks", "Ch08_Tasks\Ch08_Tasks.csproj", "{2268DAC3-69C6-4D9F-AF9F-DEB7CC0309D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08_NestedAndChildTasks", "Ch08_NestedAndChildTasks\Ch08_NestedAndChildTasks.csproj", "{57BC71A5-115C-4EE9-B010-D0216DF622F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08_GUITasks", "Ch08_GUITasks\Ch08_GUITasks.csproj", "{B627AF44-F861-4A22-B31C-67E5B6E2B84A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2268DAC3-69C6-4D9F-AF9F-DEB7CC0309D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2268DAC3-69C6-4D9F-AF9F-DEB7CC0309D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2268DAC3-69C6-4D9F-AF9F-DEB7CC0309D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2268DAC3-69C6-4D9F-AF9F-DEB7CC0309D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BC71A5-115C-4EE9-B010-D0216DF622F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BC71A5-115C-4EE9-B010-D0216DF622F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BC71A5-115C-4EE9-B010-D0216DF622F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BC71A5-115C-4EE9-B010-D0216DF622F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B627AF44-F861-4A22-B31C-67E5B6E2B84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B627AF44-F861-4A22-B31C-67E5B6E2B84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B627AF44-F861-4A22-B31C-67E5B6E2B84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B627AF44-F861-4A22-B31C-67E5B6E2B84A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Ch11_QuizModels.Quiz>
+<div class="jumbotron">
+    <h1>Quiz Web App</h1>
+    <p class="lead">Quiz Web App is a web application built using C# and ASP.NET MVC as an example for the Packt Publishing book C# and the .NET Framework.</p>
+    <p><a href="http://packtpub.com/" class="btn btn-primary btn-lg">Learn more about Packt's C# and the .NET Framework book &raquo;</a></p>
+</div>
+@{
+    var x = 0;
+}
+<div class="row">
+    @foreach (var item in Model)
+    {
+        x++;
+        <div class="col-md-6 col-sm-12">
+            <h2>@item.Title</h2>
+            <p>@item.Description</p>
+            <p>
+                <a class="btn btn-default" href="@Url.Action("TakeQuiz", new { id = item.QuizID })">Take the @item.Title quiz &raquo;</a>
+            </p>
+        </div>
+        if (x % 2 == 0)
+        {
+            @:</div><div class="row">
+        }
+    }
+</div>

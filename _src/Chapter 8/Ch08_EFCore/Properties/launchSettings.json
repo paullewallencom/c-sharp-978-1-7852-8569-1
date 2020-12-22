@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ch08_EFCore": {
+      "commandName": "Ch08_EFCore",
+      "sdkVersion": "dnx-coreclr-win-x64.1.0.0-rc1-update1"
+    }
+  }
+}
